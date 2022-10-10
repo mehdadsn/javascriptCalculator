@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100vh;
+}
+body{
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+.container{
+    background-color: #555;
+    margin: 0 auto;
+    padding-top: 14px;
+    border-radius: 20px;
+    width: 330px;
+    height: 660px;
+}
+.display{
+    background-color: white;
+    height: 7%;
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+#display-text{
+    margin-left: 1em;
+}
+.keypad{
+    height: 57%;
+    width: 90%;
+    margin: 4% auto;    
+}
+.keypad div{
+    height: 19%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+.btn{   
+    height: 70px;
+    width: 70px;
+    border: none; 
+    font-size: 1.5em;
+}
+.btn-number, .btn-ac{
+    border-radius: 50%;
+    background-color: #ccc;
+}
+.btn-operation{
+    border-radius: 20%;
+    background-color: #999;
+}
+.equals{
+    border-radius: 10px;
+    width: 220px;
+    font-size: 3rem;
+    background-color: #999;
+
+}
+.backspace{
+    border-radius: 20%;
+    background-color: #999;
+}
+.history{
+    height: 27%;
+    background-color: #bbb;
+    margin: 10px auto;
+    width: 85%;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+.historyElement:hover{
+    cursor: pointer;
+}
